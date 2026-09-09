@@ -1,7 +1,15 @@
-# WALL-E Autonomous Robot
+# WiFi-Enabled Autonomous Robot with Embedded Control System
 
-WiFi-enabled autonomous robot built on a LEGO WALL-E 
-base with full embedded control system.
+## Overview
+A fully motorized robot built on a LEGO WALL-E base with 
+complete embedded control system using ESP32.
+
+## Status
+✅ Drivetrain complete — forward, backward, left, right
+✅ WiFi control from phone browser
+✅ OLED display with battery animation
+🔄 Servo integration in progress
+🔄 Audio module in progress
 
 ## Components
 - ESP32 microcontroller
@@ -9,21 +17,16 @@ base with full embedded control system.
 - 3x Servo actuators
 - OLED display
 - DFPlayer Mini audio module
-- Custom 3D printed parts (7 components)
-
-## Features
-- WiFi hotspot control from any phone browser
-- Forward, backward, left, right movement
-- Head tilt and swivel control
-- Chest compartment servo
-- Battery animation on OLED display
-- Sound effects via DFPlayer Mini
+- 7 custom 3D printed parts
 
 ## Built With
 - C++ / Arduino IDE
-- TinkerCAD / SolidWorks for CAD
+- SolidWorks / TinkerCAD
 - 3D printed custom mechanical components
 
-## Status
-Currently in progress — motors and WiFi control 
-fully functional, servo integration in progress
+## Features
+- WiFi hotspot control from any phone browser
+- Real time motor control
+- Head tilt and swivel
+- Chest compartment servo
+- Battery animation on OLED
